@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UserInformationForm</title>
+    <style>
+        *{
+            background-color: darkgray;
+        }
+        form:hover{
+            color: blue;
+            background-color: skyblue;
+
+        }   
+        [type='submit']:hover{
+            background-color:limegreen;
+            color:blue;
+            cursor:pointer;
+            border-radius: 30px;
+            border:none;
+        }
+        
+        [type="reset"]:hover{
+            background-color: red;
+            color:blue;
+            cursor:pointer;
+            border-radius: 30px;
+            border:none;
+
+        }
+        h1:hover{ background-color: orangered;
+            color: white;
+        }
+        select{
+            color:green;
+            cursor: pointer;
+        }
+        marquee:hover{
+            color:white;
+            border:none;
+            background-color:orangered;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center" color="red">User Data</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" autofocus><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="messages">Message:</label>
+        <textarea id="message" name="message"></textarea><br><br>
+        <label for="DOB" method="name">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"></input><br><br>
+        <label for="Gender">Gender:</label>
+        <input type="radio" name="Gender" value="Male"><label>Male</label></input>
+        <input type="radio" name="Gender" value="Female"><label>Female</label></label></input>
+        <input type="radio" name="Gender" value="Others"><label>Other</label></input>
+        <br><br>
+        <label>Select your state</label>
+        <select>
+        <option>--Select Your State</option>
+        <option>AP</option>
+        <option>TN</option> 
+        <option>TS</option> 
+        <option>KA</option>   
+        <option>KL</option> 
+        <option>MH</option>
+        </select><br><br>
+        <label>Languages</label>
+        <input type="checkbox" name="Telgu">Telugu</input>
+        <input type="checkbox" name="English">English</input>
+        <input type="checkbox" name="Kanada">Kanada</input>
+        <input type="checkbox" name="Malayalam">Malayalam</input>
+        <input type="checkbox" name="Tamil">Tamil</input>
+        <input type="checkbox" name="Hindi">Hindi</input>
+        <br><br>
+
+        <label type="contact number">PhoneNumber:</label>
+        <input type="tel" id="tel" name="tel"></input>
+        <br><br>
+
+        <label>Age:</label>
+        <input type="number" id="age" name="age">
+        <br><br>
+        <label for="BG">BloodGroup:</label>
+        <select>
+           <option>--Select Your Blood Group--</option>
+           <option>A+</option>
+           <option>A-</option>
+           <option>AB+</option>
+           <option>AB-</option>
+           <option>B+</option>
+           <option>B-</option>
+           <option>O+</option>
+           <option>O-</option>
+           </select> 
+        <br><br>
+        <input type="submit"></input><br><br>
+        <input type="reset"></input>
+    </form>
+    <hr>
+    <marquee>@2020 all copyrights are received</marquee>
+    <hr>
+</body>
+</html>
