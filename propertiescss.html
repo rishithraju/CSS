@@ -8,23 +8,69 @@
 		*{
 			background-color: gray;
 		}
+		/* BOX MODEL PROPERTIES
+		--border--
+        1.border-width. 
+        2.border-style.
+        3.border-color.{solid,dotted,double,dashed,inset,outset,groove}
+        4.border-radius.
+        {<---border-top-rightradius:-->,<---border-top-leftradius:--}
+        {<---border-bottom-rightradius:-->,<---border-bottom-leftradius:-->}
+
+		*/
+
+		/*short hand property
+		1.border,padding,margin are the s.h.p
+		*/
+
+		/*padding
+		1.padding-top
+		2.padding-right
+		3.padding-bottom
+		4.padding-left
+		*/
+        h1{
+
+           text-align: center;
+           border: 2px solid blue;
+           border-radius: 10px;
+           background-color: orangered;
+           color: white;
+
+
+        }
 		h2{
-			border:5px double red;
-			padding:20px;
+			border:2px double red;
+			padding:10px;
 			color: yellow;
 			cursor:pointer;
 			height: 50px;
 			width: 50;
+			margin:10px;
+			border-radius: 10px;
 		}
 		h3{
 			border: 2px solid red;
             padding: 20px;
-            margin: 100px;
+            background-color: skyblue;
+            color: yellow;
+            margin:30px;
+            border-radius: 10px;
 		}
+        h4:hover{
+        	border:2px dashed blue;
+        	padding: 10px;
+        	margin:35px;
+        	border-radius: 10px;
+        	background-color: yellow;
+        }
+
 	</style>
 </head>
 <body>
+	<h1>Achivers IT</h1>
     <h2>Properties in Css3 new version.</h2>
     <h3>Welcome to AIT</h3>
+    <h4>Border properties</h4>
 </body>
 </html>

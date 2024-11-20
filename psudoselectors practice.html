@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Psudo Selectors</title>
+	<style>
+		h1{ text-align: center;
+            border: 1px solid red;
+            background-color: darkgray;
+		}
+		h1::first-letter{
+			font-size: 40px;
+			color: green;
+			text-align: center;
+		}
+		h2::first-letter{
+			font-size: 40px;
+			color: red;
+		}
+		
+		
+		h1::before{ content:'Javafullstack head,'
+
+		}
+		p::first-line{
+			color: yellowgreen;
+		}
+		p::selection{
+			background-color: greenyellow ;
+		}
+		input::placeholder{
+			color: orange;
+			border: 1px solid green;
+		}
+		label{
+			background-color: green;
+			border: 2px solid red;
+			
+		}
+
+	</style>
+</head>
+<body>
+	<label >Enter your name:</label>
+	<input text="text" name="uname" placeholder="Enter your name">
+    <h1>sathyasir</h1>
+    <h2>poornesh</h2>
+    <h2>rishith</h2>
+    <a href="">AIT</a>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+</body>
+</html>
